@@ -28,3 +28,35 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+
+# ====================================
+# 🚫 Archivos y carpetas de IntelliJ
+# ====================================
+.idea/
+*.iml
+*.class
+
+# ====================================
+# 🚫 Archivos temporales del sistema
+# ====================================
+*.log
+*.tmp
+*.swp
+Thumbs.db
+
+# ====================================
+# 🚫 Archivos de dependencias (si usas Maven o Gradle)
+# ====================================
+target/
+build/
+
+# ====================================
+# 🔒 Archivos de configuración sensible
+# ====================================
+# Guarda aquí tu API key u otras credenciales privadas
+config/
+*.env
+apikey.txt
+
