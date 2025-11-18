@@ -56,18 +56,19 @@ También genera un **historial de conversiones en formato JSON**, para consultar
 ### 1️⃣ **Menú principal**
 El sistema muestra un menú con varias posibles conversiones:
 
-Bienvenino a tu aplicación CONVERSOR DE MONEDA
-===========================================
-Elija una opción de cambio de moneda:
-
-1) Dólar a Peso colombiano.
-2) Euro a Peso colombiano.
-3) Dólar chino a Peso colombiano.
-4) Peso colombiano a Peso Chileno.
-5) Peso colombiano a Reales.
-6) Peso mexícano a Reales.
-7) Ver historial de cambio.
-8) Salir.
+    Bienvenino a tu aplicación CONVERSOR DE MONEDA
+    ===========================================
+    Opciones de cambio de moneda:
+    
+    1) Dólar a Peso colombiano.
+    2) Euro a Peso colombiano.
+    3) Dólar chino a Peso colombiano.
+    4) Peso colombiano a Peso Chileno.
+    5) Peso colombiano a Reales.
+    6) Peso mexícano a Reales.
+    7) Ver historial de cambio.
+    8) Salir.
+    Selecciona una opción:
 
 ---
 
