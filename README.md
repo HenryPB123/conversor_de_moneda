@@ -101,6 +101,20 @@ Respuesta:
 Cada conversión se guarda automáticamente en un archivo: historialDeCambio.json
 La clase: GeneraArchivoHistorial
 Se encarga de generar el archivo y actualizarlo.
+Formato guardado en archivo JSON:
+    [
+        {
+        "resultado": "success",
+        "ultimaFechaDeActualizacion": "Tue, 18 Nov 2025 00:00:01 +0000",
+        "proximaFechaDeActuaclizacion": "Wed, 19 Nov 2025 00:00:01 +0000",
+        "monedaBase": "EUR",
+        "monedaObjetivo": "COP",
+        "tasaDeConversion": 4362.0724,
+        "fechaHora": "2025-11-17T21:30:02.765431400",
+        "totalCambiado": 8724.1448,
+        "monto": 2.0
+        }
+    ]
 
 ---
 
