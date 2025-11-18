@@ -1,6 +1,4 @@
-
 package com.henryhp.conversordemoneda.service;
-
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -37,6 +35,4 @@ public class ClienteApiTasaDeCambio {
         }
         return gson.fromJson(json, RespuestaTasaDeCambio.class);
     }
-
-
 }

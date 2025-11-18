@@ -6,13 +6,13 @@ import java.util.Properties;
 
 public class CargaApiKey {
 
-    public static String loadApiKey()  {
+    public static String loadApiKey() {
         Properties props = new Properties();
 
-        try(FileInputStream fileInputStream = new FileInputStream("config/apikey.properties")){
+        try (FileInputStream fileInputStream = new FileInputStream("config/apikey.properties")) {
             props.load(fileInputStream);
             return props.getProperty("API_KEY");
-        }catch (IOException ex) {
+        } catch (IOException ex) {
             System.out.println("Error al cargar la API key: " + ex.getMessage());
             return null;
         }

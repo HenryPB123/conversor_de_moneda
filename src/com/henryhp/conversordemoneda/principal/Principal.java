@@ -21,7 +21,8 @@ public class Principal {
         System.out.println("\nBienvenino a tu aplicación CONVERSOR DE MONEDA");
 
         while(true) {
-            int opcion = validador.validarEntero(menu.mostrarMenu(), scanner);
+            menu.mostrarMenu();
+            int opcion = validador.validarEntero("Seleccione una opción: ", scanner);
 
            String retornoParMoneda = monedaSeleccionada.retornaMonedaSeleccionada(opcion);
             if (retornoParMoneda == null) {
