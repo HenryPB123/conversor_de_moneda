@@ -39,6 +39,11 @@ bin/
 *.class
 
 # ====================================
+# 🚫 Ignorar archivo JSON del historial
+# ====================================
+historialDeCambio.json
+
+# ====================================
 # 🚫 Archivos temporales del sistema
 # ====================================
 *.log
@@ -59,4 +64,3 @@ build/
 config/
 *.env
 apikey.txt
-
