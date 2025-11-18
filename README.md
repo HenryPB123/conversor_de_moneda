@@ -30,23 +30,23 @@ También genera un **historial de conversiones en formato JSON**, para consultar
 
 ## 📦 Estructura del proyecto
 
-src/
-└── com.henryhp.conversordemoneda/
-├── principal/
-│ └── Principal.java
-├── modelos/
-│ ├── MuestraMenu.java
-│ ├── SeleccionaMoneda.java
-│ ├── TasaDeCambio.java
-│ ├── RespuestaTasaDeCambio.java
-│ └── Historial.java
-├── service/
-│ ├── CargaApiKey.java
-│ ├── ClienteApiTasaDeCambio.java
-│ └── GeneraArchivoHistorial.java
-└── util/
-├── LocalDateTimeAdapter.java
-└── ValidarInput.java
+    src/
+    └── com.henryhp.conversordemoneda/
+    ├── principal/
+    │ └── Principal.java
+    ├── modelos/
+    │ ├── MuestraMenu.java
+    │ ├── SeleccionaMoneda.java
+    │ ├── TasaDeCambio.java
+    │ ├── RespuestaTasaDeCambio.java
+    │ └── Historial.java
+    ├── service/
+    │ ├── CargaApiKey.java
+    │ ├── ClienteApiTasaDeCambio.java
+    │ └── GeneraArchivoHistorial.java
+    └── util/
+    ├── LocalDateTimeAdapter.java
+    └── ValidarInput.java
 
 
 ---
