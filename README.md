@@ -45,8 +45,8 @@ src/
 │ ├── ClienteApiTasaDeCambio.java
 │ └── GeneraArchivoHistorial.java
 └── util/
-  ├── LocalDateTimeAdapter.java
-  └── ValidarInput.java
+├── LocalDateTimeAdapter.java
+└── ValidarInput.java
 
 
 ---
@@ -73,7 +73,7 @@ Elija una opción de cambio de moneda:
 
 ### 2️⃣ **Validación de entrada**
 La clase: ValidarInput
-Asegura que el usuario no puede dejar campos vacíos ni ingresar valores inválidos.  
+Asegura que el usuario no puede dejar campos vacíos ni ingresar valores inválidos.
 
 ---
 
@@ -102,18 +102,19 @@ Cada conversión se guarda automáticamente en un archivo: historialDeCambio.jso
 La clase: GeneraArchivoHistorial
 Se encarga de generar el archivo y actualizarlo.
 Formato guardado en archivo JSON:
+
     [
-        {
-        "resultado": "success",
-        "ultimaFechaDeActualizacion": "Tue, 18 Nov 2025 00:00:01 +0000",
-        "proximaFechaDeActuaclizacion": "Wed, 19 Nov 2025 00:00:01 +0000",
-        "monedaBase": "EUR",
-        "monedaObjetivo": "COP",
-        "tasaDeConversion": 4362.0724,
-        "fechaHora": "2025-11-17T21:30:02.765431400",
-        "totalCambiado": 8724.1448,
-        "monto": 2.0
-        }
+    {
+    "resultado": "success",
+    "ultimaFechaDeActualizacion": "Tue, 18 Nov 2025 00:00:01 +0000",
+    "proximaFechaDeActuaclizacion": "Wed, 19 Nov 2025 00:00:01 +0000",
+    "monedaBase": "EUR",
+    "monedaObjetivo": "COP",
+    "tasaDeConversion": 4362.0724,
+    "fechaHora": "2025-11-17T21:30:02.765431400",
+    "totalCambiado": 8724.1448,
+    "monto": 2.0
+    }
     ]
 
 ---
@@ -125,7 +126,7 @@ Formato guardado en archivo JSON:
 ---
 
 ### ▶️ Cómo ejecutar
-    
+
     Clona este repositorio o descarga el proyecto.
     Abre una terminal dentro de la carpeta del proyecto.
     Compila:
