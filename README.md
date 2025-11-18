@@ -45,8 +45,8 @@ También genera un **historial de conversiones en formato JSON**, para consultar
     │ ├── ClienteApiTasaDeCambio.java
     │ └── GeneraArchivoHistorial.java
     └── util/
-    ├── LocalDateTimeAdapter.java
-    └── ValidarInput.java
+      ├── LocalDateTimeAdapter.java
+      └── ValidarInput.java
 
 
 ---
